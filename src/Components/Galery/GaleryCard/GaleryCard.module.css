@@ -1,0 +1,38 @@
+.CArd{
+    position: relative;
+    text-align: center;
+    height: 170px;
+    width: 170px;
+}
+
+.CrdImage{
+    width: 100%;
+    height: 100%;
+}
+
+.CrdTytle {
+    color: #FFF;
+    position: absolute;
+    bottom: 8px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+@media (max-width: 960px) {
+    .CArd {
+        width: 26vw;
+        margin-bottom: 16px;
+    }
+}
+@media (max-width: 594px) {
+    .CArd {
+        width: 40vw;
+        margin-bottom: 16px;
+    }
+}
+@media (max-width: 284px) {
+    .CArd {
+        width: 100%;
+        margin-bottom: 16px;
+    }
+}

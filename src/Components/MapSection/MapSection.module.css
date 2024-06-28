@@ -1,0 +1,109 @@
+.MapSec {
+    margin: 12px 0px;
+    height: max-content;
+    position: relative;
+    height: 90vh;
+    max-height: 880px;
+    min-height: 530px;
+}
+
+.MapBack {
+    height: 100%;
+    width: 100%;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.CardContain {
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    margin: 0px auto;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.inner {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: var(--max-width);
+    margin: 0px auto;
+    height: 100%;
+    pointer-events: none;
+}
+
+.card {
+    pointer-events: visible;
+    z-index: 100 !important;
+    background: linear-gradient(180deg, #103977 0%, #171352 100%);
+    max-width: 390px;
+    padding: 50px;
+    border-radius: 10px;
+    color: #FFF;
+}
+
+.CardHEad {
+    font-size: 27px;
+    font-weight: 600;
+}
+
+.CardDecp {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 162%;
+    text-transform: capitalize;
+}
+
+.CardDecp1 {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 12px;
+    line-height: 162%;
+}
+
+.MApLink {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 162%;
+    display: flex;
+    align-items: center;
+    color: #FFF;
+    text-decoration: none;
+}
+
+
+@media (max-width: 952px) {
+    .card {
+        padding: 48px;
+        margin-top: 24px;
+    }
+
+    .CardHEad {
+        margin-top: 0px;
+    }
+
+    .inner {
+        justify-content: center;
+        align-items: flex-start;
+    }
+}
+
+@media (max-width: 564px) {
+    .card {
+        padding: 32px;
+    }
+    .CardHEad {
+        font-size: 27px;
+    }
+    .CardDecp,
+    .CardDecp1,
+    .MApLink {
+        font-size: 14px;
+    }
+    .MApLink svg {
+        height: 26px;
+    }
+}

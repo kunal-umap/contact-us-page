@@ -1,0 +1,12 @@
+html,body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+@media (max-width: 506px) {
+    .HeadLogo {
+        height: 42px !important;
+    }
+}

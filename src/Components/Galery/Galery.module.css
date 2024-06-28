@@ -1,0 +1,12 @@
+.MainContainer {
+    margin: 80px auto;
+    max-width: var(--max-width);
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 960px) {
+    .MainContainer {
+        flex-wrap: wrap;
+    }
+}

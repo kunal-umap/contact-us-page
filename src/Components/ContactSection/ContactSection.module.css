@@ -1,0 +1,119 @@
+.ContactForm {
+    display: flex;
+    background: var(--main-background);
+    margin: 110px auto;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px #0000001a;
+    padding: 70px 62px;
+    justify-content: space-between;
+    max-width:calc(var(--max-width) - 124px);
+}
+
+.FormText  {
+    flex: 1;
+}
+
+.FormHead {
+    color: var(--heading-main-color);
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 128%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.FormDiscription {
+    color: var(--heading-main-color);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 155%;
+}
+
+.ContForm {
+    flex: 1.7;
+    display: flex;
+    flex-direction: column;
+}
+.FlexBox{
+    display: flex;
+}
+.InputContainer {
+    margin: 0px 18px;
+    margin-bottom: 45px !important;
+    flex: 1 !important;
+}
+.InputeBox {
+    padding: 11px;
+   border: none;
+   border-radius: 0px;
+   border-bottom: 1px solid rgba(80, 80, 80, 0.517);
+   width: 100%;
+}
+
+.InputeBox:hover {
+    box-shadow: none;
+}
+
+.InputeBox:focus {
+    box-shadow: none;
+}
+.SubmitBtn {
+    margin-bottom: 45px !important;
+    flex: 1 !important;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+.Btn {
+    padding: 24px 32px;
+    border-radius: 50px;
+}
+
+
+@media (max-width: 800px) {
+    .ContactForm {
+        flex-direction: column;
+    }
+    .InputContainer {
+        width: 100%;
+        margin-left: 0px;
+    }
+}
+@media (max-width: 564px) {
+    .FormText {
+        margin-bottom: 18px;
+    }
+    .FormHead {
+        font-size: 24px;
+    }
+    .FormDiscription {
+        font-size: 12px;
+    }
+}
+@media (max-width: 511px) {
+    .ContactForm {
+        margin: 75px auto;
+    }
+    .FlexBox {
+        flex-direction: column;
+    }
+    .InputContainer {
+        margin-right: 0px;
+    }
+    .SubmitBtn {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0px !important;
+        padding: 0px;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 385px) {
+    .ContactForm {
+        padding: 50px;
+        max-width:calc(var(--max-width) - 100px);
+    }
+}

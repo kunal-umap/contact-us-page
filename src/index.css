@@ -1,0 +1,17 @@
+* {
+  font-family: Montserrat;
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --max-width: 1180px;
+  --main-background: #FFF;
+  --heading-main-color: #505050; 
+}
+
+
+@media (max-width: 1431px) {
+  :root {
+    --max-width: 85vw;
+  }
+}
