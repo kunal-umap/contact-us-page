@@ -2,7 +2,6 @@
   "name": "contact-us-page",
   "private": true,
   "version": "1.0.0",
-  "homepage": "https://kunal-umap.github.io/contact-us-page/",
   "type": "module",
   "scripts": {
     "dev": "vite",
